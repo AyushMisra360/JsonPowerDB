@@ -3,6 +3,7 @@
 <html>
     <head>
         <title>Update</title>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -14,7 +15,7 @@
     <center><input id="rollno" maxlength="50" placeholder="Roll No" name="rollno" type="text" /><br><br>
         <p>You can change your password only.</p>
         <input id="password" maxlength="50" placeholder="Password" name="password" type="password" /><br><br>
-        <input type="button" value="UPDATE DATA" onclick="updateData();"/></center>
+        <input type="button" value="UPDATE DATA" onclick="updateData();" id="btn"/></center>
     <p id="show"></p>
     <script>
         function executeCommand(reqString, dbBaseUrl, apiEndPointUrl) {
