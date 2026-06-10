@@ -3,6 +3,7 @@
 <html>
     <head>
         <title>Delete</title>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -12,7 +13,7 @@
     <body>
     <center><h1>Delete Data</h1></center>
     <center><input id="rollno" maxlength="50" placeholder="Roll No" name="rollno" type="text" /><br><br>
-        <input type="button" value="DELETE DATA" onclick="deleteData();"/></center>
+        <input type="button" value="DELETE DATA" onclick="deleteData();" id="btn"/></center>
     <p id="show"></p>
     <script>
         function executeCommand(reqString, dbBaseUrl, apiEndPointUrl) {
