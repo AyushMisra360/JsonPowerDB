@@ -1,0 +1,29 @@
+#container{
+position: fixed;
+top: 40%;
+left: 50%;
+width:30em;
+height:18em;
+margin-top: -9em;
+margin-left: -15em;
+background-color: rgba(15, 168, 168, 0.352);
+border-radius: 16px;
+font-family: monospace;
+border: solid;
+justify-content: center;
+align-items: center;
+}
+
+body{
+   background-color: rgba(100, 216, 216, 0.352) 
+}
+
+#btn{
+   border-radius: 12px;
+   border: none;
+   color: aliceblue;
+   background-color: rgb(99, 62, 135);
+   padding: 10px 16px;
+   justify-content: center;
+   align-items: center;
+}
